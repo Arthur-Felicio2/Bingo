@@ -53,6 +53,7 @@
             this.btCancel.TabIndex = 1;
             this.btCancel.Text = "Cancelar";
             this.btCancel.UseVisualStyleBackColor = true;
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
             // btNext
             // 
@@ -72,6 +73,7 @@
             this.btHistoric.TabIndex = 3;
             this.btHistoric.Text = "Histórico";
             this.btHistoric.UseVisualStyleBackColor = true;
+            this.btHistoric.Click += new System.EventHandler(this.btHistoric_Click);
             // 
             // FrmSorteador
             // 
@@ -86,6 +88,8 @@
             this.Controls.Add(this.lblNumber);
             this.Name = "FrmSorteador";
             this.Text = "Bingo";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmSorteador_FormClosing);
+            this.Load += new System.EventHandler(this.FrmSorteador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

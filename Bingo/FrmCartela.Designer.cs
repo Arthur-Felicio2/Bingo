@@ -59,12 +59,13 @@
             this.lbl5_5 = new System.Windows.Forms.Label();
             this.lbl3_5 = new System.Windows.Forms.Label();
             this.lbl2_5 = new System.Windows.Forms.Label();
+            this.lblWin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl1_1
             // 
             this.lbl1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl1_1.Location = new System.Drawing.Point(62, 107);
+            this.lbl1_1.Location = new System.Drawing.Point(191, 215);
             this.lbl1_1.Name = "lbl1_1";
             this.lbl1_1.Size = new System.Drawing.Size(40, 50);
             this.lbl1_1.TabIndex = 0;
@@ -74,7 +75,7 @@
             // lbl1_3
             // 
             this.lbl1_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl1_3.Location = new System.Drawing.Point(62, 246);
+            this.lbl1_3.Location = new System.Drawing.Point(191, 354);
             this.lbl1_3.Name = "lbl1_3";
             this.lbl1_3.Size = new System.Drawing.Size(40, 50);
             this.lbl1_3.TabIndex = 2;
@@ -84,7 +85,7 @@
             // lbl1_2
             // 
             this.lbl1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl1_2.Location = new System.Drawing.Point(62, 176);
+            this.lbl1_2.Location = new System.Drawing.Point(191, 284);
             this.lbl1_2.Name = "lbl1_2";
             this.lbl1_2.Size = new System.Drawing.Size(40, 50);
             this.lbl1_2.TabIndex = 3;
@@ -94,7 +95,7 @@
             // lbl1_4
             // 
             this.lbl1_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl1_4.Location = new System.Drawing.Point(62, 316);
+            this.lbl1_4.Location = new System.Drawing.Point(191, 424);
             this.lbl1_4.Name = "lbl1_4";
             this.lbl1_4.Size = new System.Drawing.Size(40, 50);
             this.lbl1_4.TabIndex = 4;
@@ -104,7 +105,7 @@
             // lbl4_4
             // 
             this.lbl4_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl4_4.Location = new System.Drawing.Point(254, 316);
+            this.lbl4_4.Location = new System.Drawing.Point(383, 424);
             this.lbl4_4.Name = "lbl4_4";
             this.lbl4_4.Size = new System.Drawing.Size(40, 50);
             this.lbl4_4.TabIndex = 9;
@@ -114,7 +115,7 @@
             // lbl4_2
             // 
             this.lbl4_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl4_2.Location = new System.Drawing.Point(254, 176);
+            this.lbl4_2.Location = new System.Drawing.Point(383, 284);
             this.lbl4_2.Name = "lbl4_2";
             this.lbl4_2.Size = new System.Drawing.Size(40, 50);
             this.lbl4_2.TabIndex = 8;
@@ -124,7 +125,7 @@
             // lbl4_3
             // 
             this.lbl4_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl4_3.Location = new System.Drawing.Point(254, 246);
+            this.lbl4_3.Location = new System.Drawing.Point(383, 354);
             this.lbl4_3.Name = "lbl4_3";
             this.lbl4_3.Size = new System.Drawing.Size(40, 50);
             this.lbl4_3.TabIndex = 7;
@@ -134,7 +135,7 @@
             // lbl4_1
             // 
             this.lbl4_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl4_1.Location = new System.Drawing.Point(254, 107);
+            this.lbl4_1.Location = new System.Drawing.Point(383, 215);
             this.lbl4_1.Name = "lbl4_1";
             this.lbl4_1.Size = new System.Drawing.Size(40, 50);
             this.lbl4_1.TabIndex = 5;
@@ -144,7 +145,7 @@
             // lbl5_3
             // 
             this.lbl5_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl5_3.Location = new System.Drawing.Point(312, 248);
+            this.lbl5_3.Location = new System.Drawing.Point(441, 356);
             this.lbl5_3.Name = "lbl5_3";
             this.lbl5_3.Size = new System.Drawing.Size(40, 50);
             this.lbl5_3.TabIndex = 19;
@@ -154,7 +155,7 @@
             // lbl5_1
             // 
             this.lbl5_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl5_1.Location = new System.Drawing.Point(312, 108);
+            this.lbl5_1.Location = new System.Drawing.Point(441, 216);
             this.lbl5_1.Name = "lbl5_1";
             this.lbl5_1.Size = new System.Drawing.Size(40, 50);
             this.lbl5_1.TabIndex = 18;
@@ -164,7 +165,7 @@
             // lbl5_2
             // 
             this.lbl5_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl5_2.Location = new System.Drawing.Point(312, 178);
+            this.lbl5_2.Location = new System.Drawing.Point(441, 286);
             this.lbl5_2.Name = "lbl5_2";
             this.lbl5_2.Size = new System.Drawing.Size(40, 50);
             this.lbl5_2.TabIndex = 17;
@@ -174,7 +175,7 @@
             // lbl5_4
             // 
             this.lbl5_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl5_4.Location = new System.Drawing.Point(312, 316);
+            this.lbl5_4.Location = new System.Drawing.Point(441, 424);
             this.lbl5_4.Name = "lbl5_4";
             this.lbl5_4.Size = new System.Drawing.Size(40, 50);
             this.lbl5_4.TabIndex = 16;
@@ -184,7 +185,7 @@
             // lbl3_2
             // 
             this.lbl3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl3_2.Location = new System.Drawing.Point(195, 176);
+            this.lbl3_2.Location = new System.Drawing.Point(324, 284);
             this.lbl3_2.Name = "lbl3_2";
             this.lbl3_2.Size = new System.Drawing.Size(40, 50);
             this.lbl3_2.TabIndex = 15;
@@ -194,7 +195,7 @@
             // lbl3_3
             // 
             this.lbl3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl3_3.Location = new System.Drawing.Point(195, 246);
+            this.lbl3_3.Location = new System.Drawing.Point(324, 354);
             this.lbl3_3.Name = "lbl3_3";
             this.lbl3_3.Size = new System.Drawing.Size(40, 50);
             this.lbl3_3.TabIndex = 23;
@@ -204,7 +205,7 @@
             // lbl3_4
             // 
             this.lbl3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl3_4.Location = new System.Drawing.Point(195, 316);
+            this.lbl3_4.Location = new System.Drawing.Point(324, 424);
             this.lbl3_4.Name = "lbl3_4";
             this.lbl3_4.Size = new System.Drawing.Size(40, 50);
             this.lbl3_4.TabIndex = 22;
@@ -214,7 +215,7 @@
             // lbl3_1
             // 
             this.lbl3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl3_1.Location = new System.Drawing.Point(195, 107);
+            this.lbl3_1.Location = new System.Drawing.Point(324, 215);
             this.lbl3_1.Name = "lbl3_1";
             this.lbl3_1.Size = new System.Drawing.Size(40, 50);
             this.lbl3_1.TabIndex = 20;
@@ -224,7 +225,7 @@
             // lbl2_4
             // 
             this.lbl2_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl2_4.Location = new System.Drawing.Point(128, 316);
+            this.lbl2_4.Location = new System.Drawing.Point(257, 424);
             this.lbl2_4.Name = "lbl2_4";
             this.lbl2_4.Size = new System.Drawing.Size(40, 50);
             this.lbl2_4.TabIndex = 29;
@@ -234,7 +235,7 @@
             // lbl2_2
             // 
             this.lbl2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl2_2.Location = new System.Drawing.Point(128, 176);
+            this.lbl2_2.Location = new System.Drawing.Point(257, 284);
             this.lbl2_2.Name = "lbl2_2";
             this.lbl2_2.Size = new System.Drawing.Size(40, 50);
             this.lbl2_2.TabIndex = 28;
@@ -244,7 +245,7 @@
             // lbl2_3
             // 
             this.lbl2_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl2_3.Location = new System.Drawing.Point(128, 246);
+            this.lbl2_3.Location = new System.Drawing.Point(257, 354);
             this.lbl2_3.Name = "lbl2_3";
             this.lbl2_3.Size = new System.Drawing.Size(40, 50);
             this.lbl2_3.TabIndex = 27;
@@ -254,7 +255,7 @@
             // lbl2_1
             // 
             this.lbl2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl2_1.Location = new System.Drawing.Point(128, 107);
+            this.lbl2_1.Location = new System.Drawing.Point(257, 215);
             this.lbl2_1.Name = "lbl2_1";
             this.lbl2_1.Size = new System.Drawing.Size(40, 50);
             this.lbl2_1.TabIndex = 25;
@@ -264,7 +265,7 @@
             // label31
             // 
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(128, 35);
+            this.label31.Location = new System.Drawing.Point(257, 143);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(40, 50);
             this.label31.TabIndex = 35;
@@ -274,7 +275,7 @@
             // label32
             // 
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(195, 35);
+            this.label32.Location = new System.Drawing.Point(324, 143);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(40, 50);
             this.label32.TabIndex = 34;
@@ -284,7 +285,7 @@
             // label33
             // 
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(312, 36);
+            this.label33.Location = new System.Drawing.Point(441, 144);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(40, 50);
             this.label33.TabIndex = 33;
@@ -294,7 +295,7 @@
             // label35
             // 
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(254, 35);
+            this.label35.Location = new System.Drawing.Point(383, 143);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(40, 50);
             this.label35.TabIndex = 31;
@@ -304,7 +305,7 @@
             // label36
             // 
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(62, 35);
+            this.label36.Location = new System.Drawing.Point(191, 143);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(40, 50);
             this.label36.TabIndex = 30;
@@ -314,7 +315,7 @@
             // lbl1_5
             // 
             this.lbl1_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl1_5.Location = new System.Drawing.Point(62, 384);
+            this.lbl1_5.Location = new System.Drawing.Point(191, 492);
             this.lbl1_5.Name = "lbl1_5";
             this.lbl1_5.Size = new System.Drawing.Size(40, 50);
             this.lbl1_5.TabIndex = 1;
@@ -324,7 +325,7 @@
             // lbl4_5
             // 
             this.lbl4_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl4_5.Location = new System.Drawing.Point(254, 384);
+            this.lbl4_5.Location = new System.Drawing.Point(383, 492);
             this.lbl4_5.Name = "lbl4_5";
             this.lbl4_5.Size = new System.Drawing.Size(40, 50);
             this.lbl4_5.TabIndex = 6;
@@ -334,7 +335,7 @@
             // lbl5_5
             // 
             this.lbl5_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl5_5.Location = new System.Drawing.Point(312, 385);
+            this.lbl5_5.Location = new System.Drawing.Point(441, 493);
             this.lbl5_5.Name = "lbl5_5";
             this.lbl5_5.Size = new System.Drawing.Size(40, 50);
             this.lbl5_5.TabIndex = 21;
@@ -344,7 +345,7 @@
             // lbl3_5
             // 
             this.lbl3_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl3_5.Location = new System.Drawing.Point(195, 384);
+            this.lbl3_5.Location = new System.Drawing.Point(324, 492);
             this.lbl3_5.Name = "lbl3_5";
             this.lbl3_5.Size = new System.Drawing.Size(40, 50);
             this.lbl3_5.TabIndex = 24;
@@ -354,12 +355,23 @@
             // lbl2_5
             // 
             this.lbl2_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl2_5.Location = new System.Drawing.Point(128, 384);
+            this.lbl2_5.Location = new System.Drawing.Point(257, 492);
             this.lbl2_5.Name = "lbl2_5";
             this.lbl2_5.Size = new System.Drawing.Size(40, 50);
             this.lbl2_5.TabIndex = 26;
             this.lbl2_5.Text = "0";
             this.lbl2_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblWin
+            // 
+            this.lblWin.AutoSize = true;
+            this.lblWin.Location = new System.Drawing.Point(300, 62);
+            this.lblWin.Name = "lblWin";
+            this.lblWin.Size = new System.Drawing.Size(36, 13);
+            this.lblWin.TabIndex = 36;
+            this.lblWin.Text = "Vitória";
+            this.lblWin.Visible = false;
+            this.lblWin.Click += new System.EventHandler(this.label1_Click);
             // 
             // FrmCartela
             // 
@@ -367,7 +379,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(448, 450);
+            this.ClientSize = new System.Drawing.Size(681, 584);
+            this.Controls.Add(this.lblWin);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.label33);
@@ -400,7 +413,9 @@
             this.Controls.Add(this.lbl1_1);
             this.Name = "FrmCartela";
             this.Text = "FrmCartela";
+            this.Load += new System.EventHandler(this.FrmCartela_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -436,5 +451,6 @@
         private System.Windows.Forms.Label lbl5_5;
         private System.Windows.Forms.Label lbl3_5;
         private System.Windows.Forms.Label lbl2_5;
+        private System.Windows.Forms.Label lblWin;
     }
 }

@@ -17,7 +17,9 @@ namespace Bingo
 
         int[][] numbers;
         Label[][] positions;
-        int[][] range;
+        int drawn;
+
+
         public FrmCartela(FrmSorteador sorteador ,  int id)
         {
             InitializeComponent();
@@ -41,15 +43,8 @@ namespace Bingo
                 new Label[5] { lbl5_1, lbl5_2, lbl5_3, lbl5_4, lbl5_5 }
             };
 
-            range = new int[5][]
-            {
-                new int[] { 1, 15 },
-                new int[] { 16, 30 },
-                new int[] { 31, 45 },
-                new int[] { 46, 60 },
-                new int[
-                    ] { 61, 75 }
-            };
+            drawn = 0;
+
             CreateCarton();
             
 
@@ -64,7 +59,7 @@ namespace Bingo
                 for(int j= 0; j < 5; j++)
                 {
                    // if (i == j && i == 2) continue;
-                    int num = r.Next(range[i][0], range[i][1] + 1);
+                    int num = r.Next(1,16) + (15*i);
                     numbers[i][j] = num;
                     positions[i][j].Text = num.ToString();
                 }
@@ -72,8 +67,7 @@ namespace Bingo
         }
         public void ReceiveNumber(int num)
         {
-            int i;
-            for ( i = 0; i < 5 && !(num >= range[i][0] && num <= range[i][1]); i++) ;
+            int i = (num - 1) / 15;
 
             for(int j = 0; j < 5; j++)
             {
@@ -81,11 +75,29 @@ namespace Bingo
                 {
                     positions[i][j].ForeColor = Color.White;
                     positions[i][j].BackColor = Color.Black;
-                    
+                    drawn++;
+
+
+                    if (drawn ==25)
+                    {
+                        lblWin.Visible = true;
+                        sorteador.WinNotify(this);
+
+                    }
+
+
                 }
             }
         }
 
-        
+        private void FrmCartela_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
