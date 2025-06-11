@@ -53,17 +53,24 @@ namespace Bingo
         void CreateCarton()
         {
             Random r = new Random();
-            for(int i =0; i<5; i++)
-            {
 
-                for(int j= 0; j < 5; j++)
+            for (int i = 0; i < 5; i++)
+            {
+                List<int> possibleNumbers = Enumerable.Range(1 + 15 * i, 15).ToList();
+
+                possibleNumbers = possibleNumbers.OrderBy(x => r.Next()).ToList();
+
+                for (int j = 0; j < 5; j++)
                 {
-                   // if (i == j && i == 2) continue;
-                    int num = r.Next(1,16) + (15*i);
+                    int num = possibleNumbers[j];
                     numbers[i][j] = num;
                     positions[i][j].Text = num.ToString();
                 }
             }
+
+           
+            numbers[2][2] = 0;
+            positions[2][2].Text = "";
         }
         public void ReceiveNumber(int num)
         {
